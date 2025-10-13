@@ -47,28 +47,35 @@ It features **JWT authentication**, **role-based access control**, and **score t
 
 ---
 
+```markdown
 ## 📁 Project Structure
+
+```
 
 project/
 ├── backend/
-│ ├── controllers/
-│ │ └── authController.js
-│ ├── models/
-│ │ └── userModel.js
-│ ├── routes/
-│ │ └── authRoute.js
-│ ├── middlewares/
-│ │ └── authMiddleware.js
-│ └── server.js
+│   ├── controllers/
+│   │   └── authController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── authRoute.js
+│   ├── middlewares/
+│   │   └── authMiddleware.js
+│   └── server.js
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── Routes/
-│ │ ├── pages/
-│ │ │ ├── auth/
-│ │ │ ├── Game/
-│ │ │ ├── Admin/
-│ │ │ └── user/
-│ │ └── App.js
-│ └── package.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Routes/
+│   │   ├── pages/
+│   │   │   ├── auth/
+│   │   │   ├── Game/
+│   │   │   ├── Admin/
+│   │   │   └── user/
+│   │   └── App.js
+│   └── package.json
+
+```
+```
+
